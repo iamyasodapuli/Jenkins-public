@@ -1,6 +1,7 @@
 resource "google_storage_bucket" "static" {
  name          = "my-first-jenkinexpbucket"
- project       = "yashu-project-359213"
+ project  = "Yashu-Project"
+ project_number = "yashu-project-359213"
  location      = "US"
  storage_class = "STANDARD"
 
